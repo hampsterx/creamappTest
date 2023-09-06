@@ -1,0 +1,89 @@
+name: nuimarkets
+description: Nuimarkets
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 0.9.8
+
+# Version constraints:
+#   ^ - major eg 1.x
+#
+# Please note why its being constrained if you use it!
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: any
+  file_picker: any
+  http: any
+  logger: ^1.0.0
+  dio: any
+  open_filex: any
+  pretty_dio_logger: any
+  firebase_core_platform_interface: any
+  firebase_core: any
+  firebase_messaging: any
+  rxdart: any
+  email_validator: any
+  pin_code_fields: any
+  cached_network_image: any
+  flutter_cache_manager: any
+  path_provider: any
+  flutter_hooks: any
+  hooks_riverpod: any
+  riverpod: any
+  freezed_annotation: any
+  timeago: any
+  permission_handler: any
+  tuple: any
+  divbox: any
+  dartx: any
+  stack_trace: any
+  timezone: any
+  device_info_plus: any
+  google_fonts: ^4.0.4
+  local_auth: any
+  version: any
+  flex_list: any
+  paginable: any
+  delayed_display: any
+  date_time_format: any
+  assorted_layout_widgets: any
+  connectivity_plus: any
+
+
+dev_dependencies:
+  integration_test:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.png"
+  image_path_ios: "assets/icon_ios_flat.png"
