@@ -65,6 +65,7 @@ dependencies:
   date_time_format: any
   assorted_layout_widgets: any
   connectivity_plus: any
+  embrace: ^1.4.0
 
 
 dev_dependencies:
